@@ -1,4 +1,4 @@
-# DescktopWallpaperChanger
+# DesktopWallpaperChanger
 
 You can easily change the desktop background. 
 
