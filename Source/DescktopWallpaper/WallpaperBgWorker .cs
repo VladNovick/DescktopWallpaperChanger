@@ -27,7 +27,8 @@ namespace SGCombo.Wallpaper.Changer
             try
             {
                 base.OnDoWork(e);
-               
+
+
             }
             catch (ThreadAbortException)
             {

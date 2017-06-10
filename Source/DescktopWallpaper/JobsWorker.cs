@@ -130,7 +130,6 @@ namespace SGCombo.Wallpaper.Changer
                     }
 
 
-
                     if (my_BackgroundWorkerAsync.CancellationPending)
                     {
                         e.Cancel = true;

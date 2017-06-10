@@ -30,9 +30,6 @@ namespace SGCombo.Wallpaper.Changer
 		{
 
 
-           
-
-
             InitializeComponent();
 			this.Text = String.Format("About {0}", AssemblyTitle);
 			this.labelProductName.Text = AssemblyProduct;
@@ -154,11 +151,8 @@ namespace SGCombo.Wallpaper.Changer
         {
             Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
 
-          
             config.AppSettings.Settings[paramName].Value = value;
 
-
-        
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("appSettings");
         }
@@ -174,9 +168,6 @@ namespace SGCombo.Wallpaper.Changer
             }
             return true;
         }
-
-
-
 
 
         private void AboutBox_Load(object sender, EventArgs e)

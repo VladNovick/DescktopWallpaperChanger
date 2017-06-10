@@ -42,7 +42,6 @@ namespace SGCombo.Wallpaper.Changer
             {
                 pi.Display();
 
-             
                  OnStart();
 
                 // Make sure the application runs!
@@ -73,8 +72,6 @@ namespace SGCombo.Wallpaper.Changer
         {
 
             ((WallpaperChangerStart)wallpaperServiceStart).OnStop();
-
-            
 
         }
     }
